@@ -25,21 +25,21 @@ a, a:link, a:visited {
 }
 
 .container2 {
-    
+
    float: left;
-    
-    
-    
+
+
+
  }
 
-                 
+
  .container3 {
     clear: both;
     width: 85%;
     margin: 5px auto;
     margin-bottom: 10px;
     padding: inherit;
-    height:500px; 
+    height:500px;
     background-color: ghostwhite;
 }
 
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     color:chocolate;
     margin-top:20px;
     margin-left:30px;
- 
+
 }
 
 h2 {
@@ -104,7 +104,7 @@ h6 {
     height: 80px;
     padding: 0;
     margin: 0;
-    
+
     background: url(Images/nav.jpeg) no-repeat top center;
 }
 
@@ -114,12 +114,12 @@ h6 {
     float: left;
     margin: 0;
     padding: 0;
-    
- 
+
+
 }
 
     #topmenu ul {
-     
+
         height: 10px;
         margin: 0;
         padding: 0;
@@ -129,7 +129,7 @@ h6 {
             #topmenu ul li a {
                 float: right;
                 display: block;
-                width: 75px;              
+                width: 75px;
                 padding: 5px;
                 font-size: 25px;
                 color: #d2902c;
@@ -145,8 +145,3 @@ h6 {
        list-style: none;
     }
 }
-
-
-
-
-  
