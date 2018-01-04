@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -14,7 +17,13 @@
       <div id="topmenu">
         <ul>
           <h1>National Disaster Management</h1>
-          <li><a href="login.php">Login</a></li>
+            <?php
+              if (isset($_SESSION['email'])){
+                echo "<li><a href='logout.php'>Logout</a></li>";
+              } else {
+                echo "<li><a href='login.php'>Login</a></li>";
+              }
+            ?>
         </ul>
       </div>
     </div>
@@ -38,7 +47,7 @@
 				</div>
     </div>
   </div>
-  
+
 
   <div class="alertBox" style="border-style:solid; border-width:5px; border-color:red; margin:10px; ">
     <div class="alertTop" style="background-color:yellow  ">
