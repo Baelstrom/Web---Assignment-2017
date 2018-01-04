@@ -17,7 +17,7 @@
 	<a href="Register_user.php"><button type="button" name="button">Register user</button></a>
 	<a href="check_report.php"><button type="button" name="button">check report</button></a>
 	<a href="write_report.php"><button type="button" name="button">write report</button></a>
-	<a href="frontend.php"><button type="button" name="button">home</button></a>
+	<a href="index.php"><button type="button" name="button">home</button></a>
 </form>
 <div>
 </body>
