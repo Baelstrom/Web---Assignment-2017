@@ -53,6 +53,7 @@ CREATE TABLE IF NOT EXISTS `DisasterDB`.`report` (
   `photo` VARCHAR(45) NULL,
   `Disaster_Type` VARCHAR(45) NULL,
   `Approved` INT,
+  `Title` VARCHAR (255) NULL,
   PRIMARY KEY (`Reportid`))
 ENGINE = InnoDB;
 
