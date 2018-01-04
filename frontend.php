@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+<?php
+session_start();
+?>
+<!DOCTYPE html>
 <html>
 <head>
     <link href="StyleSheet.css" rel="stylesheet"/>
@@ -162,7 +165,13 @@ h6 {
                 <div id="topmenu">
                     <ul>
                         <h1>National Disaster Management</h1>
-                        <li><a href="login.php">Login</a></li>
+                        <?php
+                          if (isset($_SESSION['email'])){
+                            echo "<li><a href='logout.php'>Logout</a></li>";
+                          } else {
+                            echo "<li><a href='login.php'>Login</a></li>";
+                          }
+                        ?>
 
                     </ul>
                 </div>
