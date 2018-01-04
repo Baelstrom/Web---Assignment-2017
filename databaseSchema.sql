@@ -45,10 +45,10 @@ DROP TABLE IF EXISTS `DisasterDB`.`report` ;
 
 CREATE TABLE IF NOT EXISTS `DisasterDB`.`report` (
   `Reportid` INT NOT NULL AUTO_INCREMENT,
-  `date` DATE NULL,
+  `date` VARCHAR(255) NULL,
   `Threat_level` VARCHAR(45) NULL,
   `Description` VARCHAR(45) NULL,
-  `long` VARCHAR (255) NULL,
+  `longitude` VARCHAR (255) NULL,
   `lat` VARCHAR (255) NULL,
   `photo` VARCHAR(45) NULL,
   `Disaster_Type` VARCHAR(45) NULL,
