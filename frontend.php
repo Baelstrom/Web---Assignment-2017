@@ -32,21 +32,21 @@ a, a:link, a:visited {
 }
 
 .container2 {
-    
+
    float: left;
-    
-    
-    
+
+
+
  }
 
-                 
+
  .container3 {
     clear: both;
     width: 85%;
     margin: 5px auto;
     margin-bottom: 10px;
     padding: inherit;
-    height:500px; 
+    height:500px;
     background-color: ghostwhite;
 }
 
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
     color:chocolate;
     margin-top:20px;
     margin-left:30px;
- 
+
 }
 
 h2 {
@@ -111,7 +111,7 @@ h6 {
     height: 80px;
     padding: 0;
     margin: 0;
-    
+
     background: url(Images/nav.jpeg) no-repeat top center;
 }
 
@@ -121,12 +121,12 @@ h6 {
     float: left;
     margin: 0;
     padding: 0;
-    
- 
+
+
 }
 
     #topmenu ul {
-     
+
         height: 10px;
         margin: 0;
         padding: 0;
@@ -136,7 +136,7 @@ h6 {
             #topmenu ul li a {
                 float: right;
                 display: block;
-                width: 75px;              
+                width: 75px;
                 padding: 5px;
                 font-size: 25px;
                 color: #d2902c;
@@ -162,7 +162,7 @@ h6 {
                 <div id="topmenu">
                     <ul>
                         <h1>National Disaster Management</h1>
-                        <li><a href="http://localhost/test/webpro/login.php/">Login</a></li>
+                        <li><a href="/login.php">Login</a></li>
 
                     </ul>
                 </div>
@@ -171,7 +171,7 @@ h6 {
         </div>
         <div class="container2" ;>
             <div id="container2">
-              
+
                 <dl>
                     <table align="center" style="font-family:Calibri;font-size:x-large">
                         <td> Current state of the country: </td>
