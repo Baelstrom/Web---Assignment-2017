@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -39,7 +42,28 @@
       <div id="topmenu">
         <ul>
           <h1>National Disaster Management</h1>
-          <li><a href="login.php">Login</a></li>
+            <?php
+              if (isset($_SESSION['email'])){
+                echo "<li><a href='logout.php'>Logout</a></li>";
+                $account = $_SESSION['account_type'];
+                switch($account){
+                  case 'user':{
+                    echo "<li><a href='write_report.php'>Report</a></li>";
+                    break;
+                  }
+                  case 'incidentmanager':{
+                    echo "<li><a href='check_report.php'>Review</a></li>";
+                    break;
+                  }
+                  case 'admin':{
+                    echo "<li><a href='backend.php'>Backend</a></li>";
+                    break;
+                  }
+                }
+              } else {
+                echo "<li><a href='login.php'>Login</a></li>";
+              }
+            ?>
         </ul>
       </div>
     </div>
